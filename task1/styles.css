@@ -1,0 +1,64 @@
+/* Общий стиль для страницы */
+body {
+    background-color: #f0f8ff; /* Светло-голубой фон */
+    font-family: Arial, sans-serif; /* Шрифт текста */
+    margin: 0;
+    padding: 0;
+}
+
+/* Стиль заголовка */
+h1 {
+    text-align: center; /* Центрирование заголовка */
+    color: black;
+    margin-top: 20px;
+}
+
+/* Стиль для изображения */
+.avatar {
+    display: block;
+    margin: 20px auto; /* Центрирование изображения */
+    width: 300px; /* Ширина изображения */
+    border: 3px solid #00af64; /* Рамка вокруг изображения */
+    border-radius: 0; /* Квадратная форма */
+}
+
+/* Параграф */
+p {
+    text-align: center;
+    color: rgb(0, 255, 0);
+    margin: 10px 20px;
+}
+
+/* Заголовок списка */
+h2 {
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+}
+
+/* Стили для списка интересов */
+ul {
+    list-style-type: disc; /* Маркированный список */
+    margin: 20px auto; /* Внешние отступы */
+    padding: 0 20px; /* Внутренние отступы */
+    max-width: 400px; /* Ограничение ширины */
+    color: rgb(0, 255, 0); /* Цвет текста */
+}
+
+ul li {
+    margin-bottom: 10px; /* Отступы между элементами списка */
+}
+
+/* Стиль для ссылки */
+.social-link {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    color: #007bff; /* Синий цвет ссылки */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-link:hover {
+    text-decoration: underline;
+}
