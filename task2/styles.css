@@ -1,1 +1,45 @@
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Шапка */
+header {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+/* Основной блок */
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+main img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #ddd;
+}
+
+main p {
+    max-width: 500px;
+    line-height: 1.5;
+}
+
+/* Подвал */
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
 
